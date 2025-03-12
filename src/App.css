@@ -1,0 +1,7 @@
+html, body {
+    background: aliceblue;
+}
+
+.active {
+    text-decoration-thickness: 20px;
+}
