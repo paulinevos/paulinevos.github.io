@@ -7,6 +7,7 @@ import {
 import About from "./About";
 import NavItem from "./NavItem";
 import Talks from "./Talks";
+import Blog from "./Blog";
 import Links from "./Links";
 import Redirect from "./Redirect";
 
@@ -16,6 +17,7 @@ function App() {
         <div className="mx-auto mt-14 max-w-7xl px-6 lg:px-8">
             <NavItem props={{to: '/', title: 'home'} } />
             <NavItem props={{to: '/talks', title: 'talks'} } />
+            <NavItem props={{to: '/blog', title: 'blog'} } />
             <NavItem props={{to: '/links', title: 'links'} } />
         </div>
         <div className="bg-grey py-24 sm:py-32">
@@ -23,6 +25,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={ <About />} />
                     <Route path="/talks" element={ <Talks />} />
+                    <Route path="/blog" element={ <Blog />} />
                     <Route path="/links" element={ <Links />} />
 
                     // Redirect to old blog posts in case people still have links
