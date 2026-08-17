@@ -10,11 +10,11 @@ function Links() {
                 </p>
             </div>
 
-            <Link to="https://bsky.app/profile/pauline-vos.nl" text="Bluesky"  description={null} />
-            <Link to="https://git-legit.dev" text="Git Legit"  description="The online Git course I'm building." />
+            <Link to="https://remember-this.io" text="Remember This"  description="The knowledge base I'm building for your life" />
+            <Link to="https://gitlegit.dev" text="Git Legit"  description="The online Git course I'm building." />
             <Link to="https://github.com/paulinevos" text="Github" description={null} />
             <Link to="https://www.linkedin.com/in/paulinepvos" text="LinkedIn" description={null} />
-            <Link to="https://git-legit.dev" text="Sessionize" description="My speaker profile." />
+            <Link to="https://sessionize.com/pauline/" text="Sessionize" description="My speaker profile." />
             <Link to="https://joind.in/user/vanamerongen" text="JoindIn" description="My talks and ratings." />
             <Link to="https://dev.to/paulinevos" text="Dev.to" description="Some of my writing. If you were looking for these, they moved here." />
 
