@@ -17,6 +17,14 @@ function Talks() {
 
 
             <Talk props={ {
+                title: 'Git, But Better: An Introduction to JJ',
+                embed: 'o9LqfuRBW1U',
+                conference: 'Laracon US, Boston, US',
+                date: new Date('2026-01-01'),
+                description: "Tired of fighting with Git? Jujutsu (<code>jj</code>) is a next-generation version control system that fixes many of Git's pain points, all without forcing your team to switch tools. You can use it right inside any existing Git repository.<br />This session will introduce you to <code>jj</code> and show how it makes everyday version control tasks dramatically simpler; from changing commits to resolving conflicts and undoing mistakes.<br />If you've ever wished Git were easier, more intuitive, and just a little more human, this talk will show you the future of version control — and how to start using it today."
+            }} />
+
+            <Talk props={ {
                 title: 'The Business of Bisecting',
                 embed:'uzog0BTLrYY',
                 conference: 'PHPUK, London, UK',
